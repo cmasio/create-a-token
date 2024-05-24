@@ -4,10 +4,6 @@ DESCRIPTION
 
 The MyToken contract is a simple implementation of a token system in Solidity, designed to handle basic minting and burning of tokens. The contract defines public variables for the token's name, abbreviation, and total supply, making this information easily accessible. It uses a mapping to keep track of the balance of tokens held by each address, ensuring precise and transparent management of individual holdings. The mint function allows for the creation of new tokens, incrementing the total supply and updating the balance of a specified address. Conversely, the burn function permits the destruction of tokens, provided the address has sufficient balance, thereby decreasing both the total supply and the address's token holdings. This straightforward structure provides essential functionality for managing a token economy on the Ethereum blockchain.
 
-Contract Code:
-// SPDX-License-Identifier: MIT
-pragma solidity 0.8.18;
-
 contract MyToken {
 
     // Public variables to store token details
@@ -48,9 +44,6 @@ Syntax
 function burn(address _address, uint _value) public
 _address: The address from which the tokens will be burned.
 _value: The number of tokens to burn.
-
-Executing program 
-to run this code you can use Remix, an online Solidity IDE. This is the link of my code 
 
 
 License
