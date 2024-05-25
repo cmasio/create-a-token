@@ -8,7 +8,8 @@ The MyToken contract is a simple implementation of a token system in Solidity, d
 
 GETTING STARTED:
 - Where and how to download your program
-This software (Remix IDE) is available for download from this website. The Ethereum blockchain allows programmers or developers to create and implement their own smart contracts using the Solidity Integrated Development Environment (IDE).
+  
+This program (Remix IDE) is available for download from this website. The Ethereum blockchain allows programmers or developers to create and implement their own smart contracts using the Solidity Integrated Development Environment (IDE).
 
 CONTRACT CODE:
 
